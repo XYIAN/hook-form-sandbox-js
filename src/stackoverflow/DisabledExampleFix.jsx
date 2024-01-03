@@ -41,7 +41,10 @@ export const ExampleInJs = () => {
     }
   }, [selectedPurpose]);
   return (
-    <div className="w-full h-full flex justify-content-center align-items-center">
+    <div
+      className="w-full h-full flex justify-content-center align-items-center"
+      style={{ backgroundColor: "white" }}
+    >
       <h5>hook form + react-select example</h5>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
